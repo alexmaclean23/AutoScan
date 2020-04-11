@@ -340,26 +340,36 @@ def run_scans():
 		pass
 	else:
 		os.system(syn)
+		print()
+		print()
 
 	if (tcp == ""):
 		pass
 	else:
 		os.system(tcp)
+		print()
+		print()
 
 	if (udp == ""):
 		pass
 	else:
 		os.system(udp)
+		print()
+		print()
 
 	if (xmas == ""):
 		pass
 	else:
 		os.system(xmas)
+		print()
+		print()
 
 	if (null == ""):
 		pass
 	else:
 		os.system(null)
+		print()
+		print()
 
 welcome_banner()
 run_scans()
