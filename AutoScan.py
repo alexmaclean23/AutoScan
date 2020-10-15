@@ -20,6 +20,7 @@ null = ""
 
 # Welcome banner	
 def welcome_banner():
+	
 	print()
 	print()
 	print("====================================================================================")
@@ -56,6 +57,7 @@ def welcome_banner():
 
 # IP selector
 def select_ip():
+
 	global ip
 
 	print()
@@ -87,6 +89,7 @@ def select_ip():
 
 # Port selector
 def select_port():
+
 	global port
 
 	print()
@@ -111,6 +114,7 @@ def select_port():
 
 # Scan selector
 def select_scan():
+
 	global scan
 	global nmapCommands
 	global index
@@ -175,6 +179,7 @@ def select_scan():
 
 # Speed selector
 def select_speed():
+	
 	global speed
 
 	print()
@@ -193,6 +198,7 @@ def select_speed():
 
 # Syntax selector
 def select_syntax():
+
 	global syntax
 
 	print()
@@ -214,6 +220,7 @@ def select_syntax():
 
 # Output selector
 def select_output():
+
 	global output
 
 	print()
@@ -228,6 +235,7 @@ def select_output():
 
 # Scans
 def create_scans():
+
 	global output
 	global index
 	global syn
@@ -327,6 +335,7 @@ def create_scans():
 	print()
 	
 def run_scans():
+
 	select_ip()
 	select_port()
 	select_scan()
