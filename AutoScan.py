@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Importing the os library to execute bash commands
 import os
@@ -80,8 +80,9 @@ def select_ip():
 			ip = "-iL " + ip + ".txt"
 	elif (ip == ""):
 		print("No target specified. Defaulting to local machine.")
+		ip = "127.0.0.1"
 	elif (" " in ip):
-		print("Invalid target. Default to local machine.")
+		print("Invalid target. Defaulting to local machine.")
 		ip = "127.0.0.1"
 	else:
 		pass
@@ -348,26 +349,36 @@ def run_scans():
 		pass
 	else:
 		os.system(syn)
+		print()
+		print()
 
 	if (tcp == ""):
 		pass
 	else:
 		os.system(tcp)
+		print()
+		print()
 
 	if (udp == ""):
 		pass
 	else:
 		os.system(udp)
+		print()
+		print()
 
 	if (xmas == ""):
 		pass
 	else:
 		os.system(xmas)
+		print()
+		print()
 
 	if (null == ""):
 		pass
 	else:
 		os.system(null)
+		print()
+		print()
 
 welcome_banner()
 run_scans()
