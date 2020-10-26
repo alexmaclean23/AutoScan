@@ -1,2 +1,2 @@
 # AutoScan
-A fully automated Nmap script that accepts user input and scans a designated target with the specifications provided. Works with all scan types and most prominent switches to take the monotony out of running Nmap manually.
+A fully-automated penetration testing script that accepts user input and scans the designated target(s) with the specifications provided. Integrates Nmap, WhoIs, TheHarvester, Nikto, Dirb, SearchSploit, and Google, with more tools / options to come. Designed to take the monotony out of scanning and enumeration, without compromising the use of industry-standard tools. Please use AutoScan legally and responsibly.
