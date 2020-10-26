@@ -778,8 +778,8 @@ def run_google():
 	else:
 		pass
 
-# End Message
-def end_message():
+# End Banner
+def end_banner():
 	print("AutoScan complete!")
 	print()
 	print()
@@ -817,8 +817,8 @@ def main():
 	run_nikto()
 	run_dirb()
 	run_searchsploit()
-	end_message()
+	run_google()
+	end_banner()
 	
 if __name__ == "__main__":
 	main()
-run_google()
