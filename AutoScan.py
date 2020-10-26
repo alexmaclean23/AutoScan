@@ -244,7 +244,7 @@ def select_syntax():
 		infoLines = 2
 
 
-# Select output
+# Select Output
 def select_output():
 
 	global output
