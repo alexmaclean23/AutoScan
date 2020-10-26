@@ -511,7 +511,7 @@ def create_directories():
 		pass
 
 	
-# Run Scans
+# Run Nmap
 def run_nmap():
 
 	global hasWebServer
